@@ -1,0 +1,20 @@
+<mat-drawer-container class="example-container">
+    <mat-drawer mode="side" [opened]="navbarStatus">
+        <img class="profile-pic" src="../../assets/images/pp.jpg">
+        <mat-list>
+            <mat-list-item href="#Home">Home</mat-list-item>
+            <mat-list-item>About</mat-list-item>
+            <mat-list-item>Experience</mat-list-item>
+            <mat-list-item>Education</mat-list-item>
+            <mat-list-item>Projects</mat-list-item>
+            <mat-list-item>Services</mat-list-item>
+            <mat-list-item>Skills</mat-list-item>
+            <mat-list-item>Contact</mat-list-item>
+        </mat-list>
+    </mat-drawer>
+    <mat-drawer-content>
+        <button (click)="navbarStatus=!navbarStatus" mat-mini-fab color="primary" aria-label="Example icon button with a menu icon">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </mat-drawer-content>
+</mat-drawer-container>
