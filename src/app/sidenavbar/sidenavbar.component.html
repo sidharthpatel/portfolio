@@ -13,8 +13,9 @@
         </mat-list>
     </mat-drawer>
     <mat-drawer-content>
-        <button (click)="navbarStatus=!navbarStatus" mat-mini-fab color="primary" aria-label="Example icon button with a menu icon">
+        <button class="nav" (click)="navbarStatus=!navbarStatus" mat-mini-fab color="primary" aria-label="Example icon button with a menu icon">
             <mat-icon>menu</mat-icon>
         </button>
+        <app-home></app-home>
     </mat-drawer-content>
 </mat-drawer-container>

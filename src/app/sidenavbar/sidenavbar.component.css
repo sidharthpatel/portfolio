@@ -11,12 +11,13 @@ mat-drawer {
     width: 15%;
 }
 
-mat-drawer-content {
-    right: 0;
-    position: fixed;
-}
-
 .profile-pic {
     width: 100%;
     border-radius: 50%;
+}
+
+.nav {
+    right: 0;
+    margin-right: 20px;
+    position: fixed;
 }
