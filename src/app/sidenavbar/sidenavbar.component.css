@@ -5,15 +5,19 @@ mat-drawer-container {
 mat-drawer, mat-drawer-content {
     padding: 16px;
 }
+mat-drawer-content {
+    background-color: #FF8585;
+}
 
 mat-drawer {
     background-color: #BED5EF;
-    width: 15%;
+    width: 10%;
 }
 
 .profile-pic {
     width: 100%;
     border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 .nav {

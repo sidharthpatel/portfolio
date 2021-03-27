@@ -2,14 +2,40 @@
     <mat-drawer mode="side" [opened]="navbarStatus">
         <img class="profile-pic" src="../../assets/images/pp.jpg">
         <mat-list>
-            <mat-list-item href="#Home">Home</mat-list-item>
-            <mat-list-item>About</mat-list-item>
-            <mat-list-item>Experience</mat-list-item>
-            <mat-list-item>Education</mat-list-item>
-            <mat-list-item>Projects</mat-list-item>
-            <mat-list-item>Services</mat-list-item>
-            <mat-list-item>Skills</mat-list-item>
-            <mat-list-item>Contact</mat-list-item>
+            <mat-list-item href="#Home">
+                <mat-icon matListIcon>home</mat-icon>
+                <h3 matLine>Home</h3>
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-icon matListIcon>info</mat-icon>
+                <h3 matLine>About</h3>
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-icon matListIcon>work</mat-icon>
+                <h3 matLine>Experience</h3>
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-icon matListIcon>book</mat-icon>
+                <h3 matLine>Education</h3>
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-icon matListIcon>integration_instructions</mat-icon>
+                <h3 matLine>Projects</h3>
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-icon matListIcon>lightbulb</mat-icon>
+                <h3 matLine>Skills</h3>
+            </mat-list-item>
+
+            <mat-list-item>
+                <mat-icon matListIcon>contact_page</mat-icon>
+                <h3 matLine>Contact</h3>
+            </mat-list-item>
         </mat-list>
     </mat-drawer>
     <mat-drawer-content>

@@ -1,0 +1,23 @@
+.profile-pic {
+    width: 210px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.bg-img {
+    /* background: url("../../assets/images/home-bg.jpg") */
+    background-image: yellow;
+    width: 100%;
+}
+/* #home {
+    background-image: url("../../assets/images/home-bg.jpg");
+}
+h1 {
+    text-align: center;
+    height: 200px;
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
