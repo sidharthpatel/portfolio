@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.navbar {
+    display: inline-block;
+    display: flex;
+}
+.navbar-theme, .navbar-links {
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: large;
+    gap: 40px;
+}
+.navbar-links {
+    justify-content: flex-end;
+}
