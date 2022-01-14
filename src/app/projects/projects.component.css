@@ -3,23 +3,13 @@ div {
   margin: auto;
   width: min(50em, 100%);
   font-family: "Lato", sans-serif;
+  padding-top: 1em;
 }
-.project-names {
-  list-style: none;
+
+mat-expansion-panel {
+  margin-bottom: 1em;
+}
+
+mat-expansion-panel-header {
   font-size: 20px;
-  color: #4062bb;
-}
-
-.project-names li::before {
-  content: "\2023";
-  color: gray;
-}
-
-.project-description {
-  margin-top: 1em;
-  color: #465362;
-  font-size: 16px;
-  list-style: none;
-  padding-top: 10px;
-  padding-left: 0px;
 }
