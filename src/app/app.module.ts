@@ -38,7 +38,7 @@ import { HomeComponent } from './home/home.component';
     MatListModule,
     MatToolbarModule,
     MatCardModule,
-    MatExpansionModule
+    MatExpansionModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
