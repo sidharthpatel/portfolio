@@ -18,6 +18,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { HomeComponent } from './home/home.component';
     NavbarComponent,
     ProjectsComponent,
     HomeComponent,
+    ContactComponent,
   ],
   imports: [
     AppRoutingModule,
