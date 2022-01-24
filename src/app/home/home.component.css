@@ -1,16 +1,39 @@
-.home-container {
+/* .intro-container {
   color: black;
+} */
+
+#html-svg,
+#python-svg,
+#angular-svg,
+#java-svg,
+#css-svg,
+#bootstrap-svg,
+#javascript-svg,
+#react-svg,
+#nodejs-svg {
+  width: 50px;
+  height: 50px;
+}
+
+.name {
+  color: orangered;
+}
+
+.home-container {
+  margin: auto;
+  width: min(50em, 100%);
+  height: min(50em, 100%);
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
-#html-svg {
-  filter: invert(54%) sepia(71%) saturate(3950%) hue-rotate(347deg) brightness(99%) contrast(90%);
-  width: 50px;
-  height: 50px;
+.skills-container {
+  margin-right: 10px;
+  border-radius: 10px;
+  text-align: center;
 }
 
-#python-svg, #angular-svg, #java-svg, #css-svg, #bootstrap-svg, #javascript-svg, #react-svg, #nodejs-svg {
-  width: 50px;
-  height: 50px;
+.skills-container img {
+  vertical-align: middle;
 }
