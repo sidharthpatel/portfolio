@@ -19,6 +19,7 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ContactComponent } from './contact/contact.component';
     ProjectsComponent,
     HomeComponent,
     ContactComponent,
+    ExperienceComponent,
   ],
   imports: [
     AppRoutingModule,
