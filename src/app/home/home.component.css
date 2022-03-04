@@ -1,7 +1,3 @@
-/* .intro-container {
-  color: black;
-} */
-
 #html-svg,
 #python-svg,
 #angular-svg,
@@ -19,21 +15,38 @@
   color: orangered;
 }
 
-.home-container {
-  margin: auto;
-  width: min(50em, 100%);
-  height: min(50em, 100%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .skills-container {
-  margin-right: 10px;
-  border-radius: 10px;
+  /* margin-right: 10px; */
+  /* border-radius: 10px; */
   text-align: center;
 }
 
-.skills-container img {
-  vertical-align: middle;
+.skills-container figure {
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgba(173, 216, 230, 0.5);
+}
+
+.intro-container,
+.home-container {
+  margin: auto;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius:0;
+  border-top-right-radius: 0;
+}
+
+.home-container {
+  width: min(800px, 100%);
+  /* height: min(800px, 100%); */
+  display: flex;
+}
+
+#profile {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 200px;
 }
