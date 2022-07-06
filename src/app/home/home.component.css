@@ -25,7 +25,9 @@
   display: inline-block;
   padding: 20px;
   margin: 10px;
-  background-color: rgba(173, 216, 230, 0.5);
+  /* background-color: rgba(173, 216, 230, 0.151); */
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px rgba(85, 85, 85, 0.5);
 }
 
 .intro-container,
@@ -33,8 +35,9 @@
   margin: auto;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  border-top-left-radius:0;
+  border-top-left-radius: 0;
   border-top-right-radius: 0;
+  padding-top: 1em;
 }
 
 .home-container {
@@ -49,4 +52,8 @@
   margin: auto;
   width: 200px;
   height: 200px;
+}
+
+h1 {
+  text-align: center;
 }

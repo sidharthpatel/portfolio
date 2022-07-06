@@ -5,7 +5,7 @@ body {
   height: 100%;
 }
 body {
-  background: linear-gradient(45deg, #FC7864, #FDA366) fixed;
+  background: linear-gradient(45deg, #faa79a, #ff4141) fixed;
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
   margin: 0;
