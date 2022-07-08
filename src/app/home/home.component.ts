@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
+  contactMe: string;
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit() {
+    this.contactMe = "mailto:sidharthpatel012@gmail.com"
+  }
 }

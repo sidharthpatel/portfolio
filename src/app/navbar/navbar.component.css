@@ -3,8 +3,10 @@
   top: 0;
   width: 100%;
   display: flex;
+  background: transparent;
   background-color: #1d1d1f;
 }
+
 mat-toolbar {
   background-color: #1d1d1f;
   font-family: "Lato", sans-serif;
