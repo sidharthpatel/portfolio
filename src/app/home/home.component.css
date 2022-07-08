@@ -1,12 +1,4 @@
-#html-svg,
-#python-svg,
-#angular-svg,
-#java-svg,
-#css-svg,
-#bootstrap-svg,
-#javascript-svg,
-#react-svg,
-#nodejs-svg {
+.skills-container img {
   width: 50px;
   height: 50px;
 }
@@ -15,9 +7,7 @@
   color: orangered;
 }
 
-.skills-container {
-  /* margin-right: 10px; */
-  /* border-radius: 10px; */
+.skills-container, h1 {
   text-align: center;
 }
 
@@ -25,35 +15,14 @@
   display: inline-block;
   padding: 20px;
   margin: 10px;
-  /* background-color: rgba(173, 216, 230, 0.151); */
   border-radius: 10px;
-  box-shadow: 0 0 5px 5px rgba(85, 85, 85, 0.5);
-}
-
-.intro-container,
-.home-container {
-  margin: auto;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  padding-top: 1em;
-}
-
-.home-container {
-  width: min(800px, 100%);
-  /* height: min(800px, 100%); */
-  display: flex;
+  box-shadow: 0 0 5px 5px rgba(85, 85, 85, 0.2);
 }
 
 #profile {
   border-radius: 50%;
   display: block;
   margin: auto;
-  width: 200px;
-  height: 200px;
-}
-
-h1 {
-  text-align: center;
+  /* width: 200px; */
+  /* height: 200px; */
 }

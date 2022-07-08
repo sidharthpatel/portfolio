@@ -1,27 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-.navbar {
+.navigation-container {
+  position: sticky;
+  top: 0;
+  width: 100%;
   display: flex;
-  width: min(800px, 100%);
-  margin: auto;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  overflow: hidden;
+  background-color: #1d1d1f;
 }
-.navbar-theme,
-.navbar-links {
-  background-color: black;
+mat-toolbar {
+  background-color: #1d1d1f;
   font-family: "Lato", sans-serif;
   color: white;
   font-size: large;
-  gap: 40px;
+  width: fit-content;
+  padding: 10px 15px;
+  height: fit-content;
 }
-.navbar-links {
-  justify-content: flex-end;
+mat-toolbar a {
+  display: inline-block;
 }
 a {
   text-decoration: none;
   color: white;
-  padding: 10px 10px 10px 10px;
+  padding: 5px 10px 5px 10px;
 }
 a:hover {
   background-color: white;

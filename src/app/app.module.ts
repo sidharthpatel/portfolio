@@ -21,8 +21,8 @@ import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
     NavbarComponent,
+    AppComponent,
     HomeComponent,
     ExperienceComponent,
   ],

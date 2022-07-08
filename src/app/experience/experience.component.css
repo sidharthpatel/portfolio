@@ -1,9 +1,7 @@
 mat-card {
-  margin: auto;
-  width: min(769px, 100%);
   font-family: "Lato", sans-serif;
   margin-bottom: 1em;
-  border-radius: 0;
+  position: static;
 }
 li {
   font-size: 16px;
