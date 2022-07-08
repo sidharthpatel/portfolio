@@ -1,13 +1,12 @@
 <div class="navbar">
-  <mat-toolbar class="navbar-theme">
-    <a routerLink="">Siddharth</a>
-  </mat-toolbar>
+  <div class="navigation-container">
+    <mat-toolbar>
+      <a routerLink="">About</a>
+    </mat-toolbar>
 
-  <mat-toolbar class="navbar-links">
-    <a routerLink="projects" routerLinkActive="active">Projects</a>
-    <a routerLink="about">About</a>
-    <a routerLink="contact">Contact</a>
-  </mat-toolbar>
-  <!--Navbar-->
+    <mat-toolbar>
+      <a routerLink="experience">Experience</a>
+    </mat-toolbar>
+  </div>
+  <router-outlet routerLinkActive="active"></router-outlet>
 </div>
-<router-outlet></router-outlet>

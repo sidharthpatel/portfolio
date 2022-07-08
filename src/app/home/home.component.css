@@ -1,0 +1,28 @@
+.skills-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.name {
+  color: orangered;
+}
+
+.skills-container, h1 {
+  text-align: center;
+}
+
+.skills-container figure {
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px rgba(85, 85, 85, 0.2);
+}
+
+#profile {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  /* width: 200px; */
+  /* height: 200px; */
+}
