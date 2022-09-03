@@ -1,5 +1,8 @@
 .home-container {
-  background-color: #F5F5F7;
+  margin: 4rem auto 4rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .skills-container img {
   width: 50px;
@@ -9,10 +12,16 @@
 .name {
   color: orangered;
 }
-
+.skills-container {
+  margin-top: 4rem;
+}
 .skills-container,
 h1 {
   text-align: center;
+}
+
+h1 {
+  font-size: 20pt;
 }
 
 .skills-container figure {
@@ -22,27 +31,35 @@ h1 {
   border-radius: 10px;
   box-shadow: 0 0 5px 5px rgba(85, 85, 85, 0.2);
 }
-
+#introduction {
+  margin-top: 2rem;
+}
 #profile {
   border-radius: 50%;
-  display: block;
-  margin: auto;
-  /* width: 200px; */
-  /* height: 200px; */
 }
 
 .contact {
   text-decoration: none;
-  background-color: cyan;
-  color: #1d1d1f;
+  background-color: black;
+  color: white;
   font-size: 26px;
-  padding: 10px 5px;
   border-radius: 10px;
+  padding: 6px;
 }
 
 .contact:hover {
-  border-style: solid;
-  border-color: #561d25;
-  color: #561d25;
+  padding: 4px;
+  color: black;
   background-color: white;
+  outline: solid black 2px;
+  transition: all 0.1s;
+}
+
+#interest {
+  margin: 2rem 0 2rem 0;
+}
+
+h2 {
+  margin: 2rem 0 0 0;
+  /* margin-top: 2rem; */
 }
