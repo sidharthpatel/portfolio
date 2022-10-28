@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Output, Input, OnInit, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-toggle-switch',
   templateUrl: './toggle-switch.component.html',
-  styleUrls: ['./toggle-switch.component.css']
+  styleUrls: ['./toggle-switch.component.css'],
 })
 export class ToggleSwitchComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
