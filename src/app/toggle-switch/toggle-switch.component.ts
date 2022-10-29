@@ -1,4 +1,5 @@
 import { Component, Output, Input, OnInit, EventEmitter } from '@angular/core';
+import { ToggleSwitchService } from '../services/toggle-switch.service';
 
 @Component({
   selector: 'app-toggle-switch',
@@ -6,7 +7,9 @@ import { Component, Output, Input, OnInit, EventEmitter } from '@angular/core';
   styleUrls: ['./toggle-switch.component.css'],
 })
 export class ToggleSwitchComponent implements OnInit {
-  constructor() {}
-
+  constructor(private service: ToggleSwitchService) {}
   ngOnInit(): void {}
+  isSwitchOn(event: Event): void {
+    this.service.returnSwitchOnOff((<HTMLInputElement>event.target).checked);
+  }
 }

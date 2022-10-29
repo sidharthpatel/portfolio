@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ToggleSwitchService } from '../services/toggle-switch.service';
 
 @Component({
   selector: 'app-home',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
-  contactMe: string;
-  constructor() {}
+  darkMode: boolean = false;
+  constructor(private toggleSwitchService: ToggleSwitchService) {}
 
   ngOnInit() {
-    this.contactMe = "mailto:sidharthpatel012@gmail.com"
+    this.toggleSwitchService.switchToggle.subscribe((darkModeStatus) => {
+      this.darkMode = darkModeStatus;
+      console.log(this.darkMode);
+    });
   }
 }
