@@ -4,7 +4,7 @@ import { ToggleSwitchService } from '../services/toggle-switch.service';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css'],
+  // styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
   darkMode: boolean = false;
@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     this.toggleSwitchService.switchToggle.subscribe((darkModeStatus) => {
       this.darkMode = darkModeStatus;
-      console.log(this.darkMode);
+      // console.log(this.darkMode);
     });
   }
 }
