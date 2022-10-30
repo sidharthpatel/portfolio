@@ -1,7 +1,9 @@
 input[type="checkbox"].toggle {
   opacity: 0;
   cursor: pointer;
-  position: absolute;
+  position: fixed;
+  display: none;
+  right: 10px;
 }
 
 input[type="checkbox"].toggle + label {
