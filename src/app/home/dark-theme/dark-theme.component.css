@@ -51,10 +51,9 @@ h1 {
 
 .contact:hover {
   padding: 4px;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: black;
   outline: solid white 2px;
-  transition: all 0.1s;
 }
 
 #interest {

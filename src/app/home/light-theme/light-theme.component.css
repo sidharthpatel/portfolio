@@ -51,8 +51,7 @@ h1 {
   padding: 4px;
   color: black;
   background-color: white;
-  outline: solid white 2px;
-  transition: all 0.1s;
+  outline: solid black 2px;
 }
 
 #interest {
