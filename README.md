@@ -1,27 +1,33 @@
-# Portfolio
+# [Portfolio](https://sidharthpatel.github.io/)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+This project is my personal portfolio built from scratch using Angular.
 
-## Development server
+Created by: **Siddharth Patel**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[![wakatime](https://wakatime.com/badge/user/1b6035ce-66c3-490e-bccd-740880a46a30/project/74e2c8a6-3454-438e-874c-9756b940e8b8.svg)](https://wakatime.com/badge/user/1b6035ce-66c3-490e-bccd-740880a46a30/project/74e2c8a6-3454-438e-874c-9756b940e8b8)
 
-## Code scaffolding
+## Functionality
+The following **required** functionality is completed:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* [x] Create a home page with an introduction
+* [x] Highlight your skills
+* [x] Add a picture with a round frame
+* [x] Create a button to share your contact information
 
-## Build
+The following **additional** functionality is completed:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* [x] Put your skills in a container with a shadow effect
+* [x] Change Contact button's appearance upon hovering on it for better user experience.
+* [x] Add a dark theme to the UI.
 
-## Running unit tests
+## Challenges
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Challenges encountered while building the app:
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* Creating a round frame for the portfolio picture
+  * This was easily dealt with under an **hour** through some research.
+* The infamous dark theme button. This was the hardest challenge because:
+  * I had to generate a new component
+  * I had to fetch button toggle from the UI to the component.
+  * My struggle was sharing the button toggle on/off value to the home component to render light/dark theme accordingly.
+  * I **solved** the problem by using a service with an event emitter to identify any changes in the state of the button. The home component would then subscribe to the event emitter and render themes accordingly.
