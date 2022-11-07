@@ -1,15 +1,14 @@
 input[type="checkbox"].toggle {
   opacity: 0;
   cursor: pointer;
-  position: fixed;
   display: none;
-  right: 10px;
 }
 
 input[type="checkbox"].toggle + label {
   display: flex;
   align-items: center;
   position: fixed;
+  top: 0;
   right: 10px;
   cursor: pointer;
 }
