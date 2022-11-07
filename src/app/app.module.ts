@@ -7,6 +7,7 @@ import { ToggleSwitchComponent } from './toggle-switch/toggle-switch.component';
 import { LightThemeComponent } from './home/light-theme/light-theme.component';
 import { DarkThemeComponent } from './home/dark-theme/dark-theme.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     LightThemeComponent,
     DarkThemeComponent,
     NavbarComponent,
+    ExperienceComponent,
   ],
   imports: [BrowserModule],
   providers: [],
