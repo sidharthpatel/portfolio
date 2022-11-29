@@ -10,6 +10,6 @@ export class ToggleSwitchComponent implements OnInit {
   constructor(private service: ToggleSwitchService) {}
   ngOnInit(): void {}
   isSwitchOn(event: Event): void {
-    this.service.returnSwitchOnOff((<HTMLInputElement>event.target).checked);
+    document.body.classList.toggle('dark-theme');
   }
 }

@@ -18,21 +18,11 @@
 .skills-container,
 h1 {
   text-align: center;
-}
-
-h1 {
-  font-size: 20pt;
+  color: var(--text-color);
 }
 
 .skills-container figure {
   display: inline-block;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 10px;
-  box-shadow: 0 0 5px 5px rgba(85, 85, 85, 0.2);
-}
-#introduction {
-  margin-top: 2rem;
 }
 #profile {
   border-radius: 50%;
@@ -40,8 +30,8 @@ h1 {
 
 .contact {
   text-decoration: none;
-  background-color: black;
-  color: white;
+  background-color: var(--contact-bkg-color);
+  color: var(--contact-text-color);
   font-size: 26px;
   border-radius: 10px;
   padding: 6px;
@@ -49,9 +39,9 @@ h1 {
 
 .contact:hover {
   padding: 4px;
-  color: black;
-  background-color: white;
-  outline: solid black 2px;
+  color: var(--contact-bkg-color);
+  background-color: var(--contact-text-color);
+  outline: solid var(--contact-bkg-color) 2px;
 }
 
 #interest {
@@ -60,5 +50,4 @@ h1 {
 
 h2 {
   margin: 2rem 0 0 0;
-  /* margin-top: 2rem; */
 }
