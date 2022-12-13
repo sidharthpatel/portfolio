@@ -10,38 +10,32 @@
 }
 
 .name {
-  color: orangered;
+  color: #f33c3c;
 }
 .skills-container {
   margin-top: 4rem;
 }
 .skills-container,
 h1 {
+  font-weight: 400;
+  font-size: 20px;
   text-align: center;
+  color: var(--text-color);
+}
+.skills-container > h1 {
+  font-size: 2.7rem;
+  font-weight: 100;
+  text-transform: uppercase;
   color: var(--text-color);
 }
 
 .skills-container figure {
+  font-weight: 300;
+  font-size: 16px;
   display: inline-block;
 }
 #profile {
   border-radius: 50%;
-}
-
-.contact {
-  text-decoration: none;
-  background-color: var(--contact-bkg-color);
-  color: var(--contact-text-color);
-  font-size: 26px;
-  border-radius: 10px;
-  padding: 6px;
-}
-
-.contact:hover {
-  padding: 4px;
-  color: var(--contact-bkg-color);
-  background-color: var(--contact-text-color);
-  outline: solid var(--contact-bkg-color) 2px;
 }
 
 #interest {

@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-  --text-color:black;
+  --text-color: black;
   --bkg-color: #fff;
   --contact-bkg-color: black;
   --contact-text-color: white;
@@ -12,13 +12,11 @@ body.dark-theme {
   --contact-bkg-color: white;
   --contact-text-color: black;
 }
-
 body {
   height: 100%;
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
 body {
   background: var(--bkg-color);
 }

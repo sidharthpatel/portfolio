@@ -1,0 +1,26 @@
+* {
+  text-align: center;
+}
+h1:first-child {
+  color: #f33c3c;
+}
+h1 {
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--text-color);
+}
+.contact {
+  text-decoration: none;
+  background-color: var(--contact-bkg-color);
+  color: var(--contact-text-color);
+  font-size: 26px;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.contact:hover {
+  padding: 4px;
+  color: var(--contact-bkg-color);
+  background-color: var(--contact-text-color);
+  outline: solid var(--contact-bkg-color) 2px;
+}

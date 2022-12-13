@@ -6,6 +6,8 @@ import { HomeComponent } from './home/home.component';
 import { ToggleSwitchComponent } from './toggle-switch/toggle-switch.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { FooterComponent } from './footer/footer.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,8 @@ import { ExperienceComponent } from './experience/experience.component';
     ToggleSwitchComponent,
     NavbarComponent,
     ExperienceComponent,
+    FooterComponent,
+    ProjectsComponent,
   ],
   imports: [BrowserModule],
   providers: [],

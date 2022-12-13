@@ -1,17 +1,17 @@
-nav {
-  position: sticky;
+nav.navbar {
   display: flex;
-  align-items: center;
   top: 0;
-  background-color: #90C3C8;
-  /* background-color: #6c91bf; */
+  position: sticky;
+  align-items: center;
+  background-color: #6c91bf;
+  /* background-color: #90C3C8; */
   height: 3rem;
 }
 
 nav a {
   padding: 1rem;
   font-size: 1.2rem;
-  font-family: Segoe UI;
+  /* font-family: Segoe UI; */
   text-decoration: none;
   color: black;
 }
@@ -22,4 +22,11 @@ nav a:hover {
   margin: 8px;
   background-color: black;
   border-radius: 10px;
+}
+#scrollBar {
+  background-color: maroon;
+  display: block;
+  position: fixed;
+  height: 4px;
+  transition: width 0.5s;
 }

@@ -7,11 +7,9 @@ import { ToggleSwitchService } from '../services/toggle-switch.service';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
-  contactMe: String;
   constructor(private toggleSwitchService: ToggleSwitchService) {}
 
   ngOnInit() {
-    this.contactMe = 'mailto:sidharthpatel012@gmail.com';
     this.toggleSwitchService.switchToggle.subscribe((darkModeStatus) => {
 
     });
