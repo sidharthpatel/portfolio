@@ -9,6 +9,7 @@ export class ProjectsComponent implements OnInit {
   projectFilter = document.getElementsByClassName('list');
   projectsList = document.getElementsByClassName('project-box');
   dataFilter: String;
+  
   constructor() {}
   ngOnInit(): void {
     this.ProjectFilterSelector();
