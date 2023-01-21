@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
+import { MatDialogModule } from '@angular/material/dialog';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -22,5 +24,7 @@ import { ProjectsComponent } from './projects/projects.component';
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],
+  /** Feature for Mat Dialog box */
+  // entryComponents: [ProjectPortalComponent],
 })
 export class AppModule {}

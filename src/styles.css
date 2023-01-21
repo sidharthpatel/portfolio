@@ -20,3 +20,6 @@ body {
 body {
   background: var(--bkg-color);
 }
+/* .custom-modalbox > mat-dialog-container {
+  border-radius: 30px;
+} */

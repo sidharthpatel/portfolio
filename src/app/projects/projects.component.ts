@@ -9,7 +9,7 @@ export class ProjectsComponent implements OnInit {
   projectFilter = document.getElementsByClassName('list');
   projectsList = document.getElementsByClassName('project-box');
   dataFilter: String;
-  
+
   constructor() {}
   ngOnInit(): void {
     this.ProjectFilterSelector();
@@ -45,5 +45,13 @@ export class ProjectsComponent implements OnInit {
         this.projectsList[i].setAttribute('style', 'display: inline');
       }
     }
+  }
+
+  bitFilAClick(): void {
+    window.open('https://github.com/jemin19/Bit-fil-a');
+  }
+
+  openPostIt(): void {
+    window.open('https://github.com/sidharthpatel/post-it-frontend');
   }
 }

@@ -5,19 +5,33 @@
   </header>
 
   <ul class="project-filter">
-    <li class="list" id="project-filter-active" data-filter="app">Application</li>
+    <li class="list" id="project-filter-active" data-filter="app">
+      Application
+    </li>
     <!-- <li class="list" data-filter="design">App Design</li> -->
     <!-- <li class="list" data-filter="web">Website Design</li> -->
     <li class="list" data-filter="ai">AI</li>
   </ul>
 
   <div class="project-container">
-    <a class="project-box app">
+    <div class="project-box app">
       <img src="../../assets/images/Bit-Fil-A.png" />
-    </a>
-    <a class="project-box app">
+      <h1>Bit-Fil-A</h1>
+      <p>
+        Bit-Fil-A is an angular-based CRUD application consisting of a menu &
+        shopping cart.
+      </p>
+      <button (click)="bitFilAClick()">read more</button>
+    </div>
+    <div class="project-box app">
       <img src="../../assets/images/Post-It.png" />
-    </a>
+      <h1>Post-It</h1>
+      <p>
+        Post-It is a simple MEAN Stack application that allows users to add
+        public notes with images.
+      </p>
+      <button (click)="openPostIt()">read more</button>
+    </div>
     <!-- <a class="project-box design">
       <img src="../../assets/images/Octocat.png" />
     </a> -->
