@@ -8,10 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectsComponent implements OnInit {
   projectFilter = document.getElementsByClassName('list');
   projectsList = document.getElementsByClassName('project-box');
-  dataFilter: String;
+  dataFilter: String = 'app';
 
   constructor() {}
   ngOnInit(): void {
+    this.ProjectListSelector();
     this.ProjectFilterSelector();
   }
 
@@ -39,7 +40,7 @@ export class ProjectsComponent implements OnInit {
           return element != 'project-box';
         })
         .toString();
-      if (filter != this.dataFilter && this.dataFilter != 'all') {
+      if (filter != this.dataFilter) {
         this.projectsList[i].setAttribute('style', 'display: none');
       } else {
         this.projectsList[i].setAttribute('style', 'display: inline');
@@ -52,6 +53,21 @@ export class ProjectsComponent implements OnInit {
   }
 
   openPostIt(): void {
-    window.open('https://github.com/sidharthpatel/post-it-frontend');
+    window.open('https://github.com/sidharthpatel/post-it-frontend#readme');
+  }
+  openFilters(): void {
+    window.open(
+      'https://github.com/sidharthpatel/Computer-Vision/tree/main/P1_convolution_fft_resizing'
+    );
+  }
+  openBlob(): void {
+    window.open(
+      'https://github.com/sidharthpatel/Computer-Vision/tree/main/P2_features_scale_warping'
+    );
+  }
+  openMatchingPipeline(): void {
+    window.open(
+      'https://github.com/sidharthpatel/Computer-Vision/tree/main/P3_transformations_matching_pipeline'
+    );
   }
 }

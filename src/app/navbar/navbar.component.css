@@ -3,7 +3,8 @@ nav.navbar {
   top: 0;
   position: sticky;
   align-items: center;
-  background-color: #6c91bf;
+  /* background-color: #6c91bf; */
+  background-color: #74c0fc;
   /* background-color: #90C3C8; */
   height: 3rem;
 }
