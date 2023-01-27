@@ -17,7 +17,6 @@ export class NavbarComponent implements OnInit {
       let scrollPercentRounded = Math.floor(scrollPercent * 100);
       let scrollBarElement = document.getElementById('scrollBar');
       scrollBarElement.setAttribute('style', 'width: ' + scrollPercentRounded + '%');
-      console.log(scrollPercentRounded);
     });
   }
 }
