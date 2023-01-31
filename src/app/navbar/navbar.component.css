@@ -1,33 +1,30 @@
-nav.navbar {
+.navbar {
   display: flex;
-  top: 0;
-  position: sticky;
+  justify-content: space-around;
   align-items: center;
-  /* background-color: #6c91bf; */
+  position: fixed;
+  width: 100%;
   background-color: #74c0fc;
-  /* background-color: #90C3C8; */
-  height: 3rem;
+  z-index: 100;
 }
-
-nav a {
-  padding: 1rem;
-  font-size: 1.2rem;
-  /* font-family: Segoe UI; */
+nav a,
+nav a:hover {
+  padding: 0.5rem 1rem 0.5rem 1rem;
   text-decoration: none;
+  font-size: 1.2rem;
+}
+nav a {
   color: black;
 }
-
 nav a:hover {
   color: white;
-  padding: 8px;
-  margin: 8px;
   background-color: black;
-  border-radius: 10px;
+  border-radius: 100px;
 }
 #scrollBar {
+  align-self: flex-end;
+  position: absolute;
   background-color: maroon;
-  display: block;
-  position: fixed;
-  height: 4px;
-  transition: width 0.5s;
+  border-radius: 50px;
+  height: 3px;
 }

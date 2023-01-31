@@ -7,9 +7,7 @@ input[type="checkbox"].toggle {
 input[type="checkbox"].toggle + label {
   display: flex;
   align-items: center;
-  position: absolute;
-  top: 0;
-  right: 10px;
+  position: relative;
   cursor: pointer;
 }
 
