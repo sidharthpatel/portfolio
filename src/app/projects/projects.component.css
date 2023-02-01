@@ -9,13 +9,6 @@ a {
 ul {
   list-style: none;
 }
-#project {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 100px 0;
-}
 .project-heading {
   margin-top: 20px;
   display: flex;
