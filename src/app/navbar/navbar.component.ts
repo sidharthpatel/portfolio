@@ -14,6 +14,9 @@ export class NavbarComponent implements OnInit {
       let docHeight = document.body.offsetHeight;
       let winHeight = window.innerHeight;
       let scrollPercent = scrollTop / (docHeight - winHeight);
+      if(scrollPercent * 100 >= 100) {
+        scrollPercent = 1;
+      }
       let scrollBarElement = document.getElementById('scrollBar');
       scrollBarElement.setAttribute('style', 'width: ' + scrollPercent*100 + '%');
     });
