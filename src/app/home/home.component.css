@@ -110,14 +110,16 @@
   }
 }
 
-.name {
-  color: #f33c3c;
-}
 h1 {
-  font-weight: 400;
-  font-size: 20px;
+  font-size: 40px;
   text-align: center;
-  color: var(--text-color);
+  color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+  background-image: url(https://media.giphy.com/media/73WrT6n6yoVfq/giphy.gif);
+  /* background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif); */
+  /* background-image: url(https://media.giphy.com/media/26xBuhC443InQMYI8/giphy-downsized-large.gif); */
+	background-size: contain;
 }
 
 #profile {
