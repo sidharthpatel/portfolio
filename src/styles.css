@@ -1,26 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 48px;
 }
 body {
   --text-color: black;
   --bkg-color: #fff;
   --contact-bkg-color: black;
   --contact-text-color: white;
+  height: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: var(--bkg-color);
 }
 body.dark-theme {
   --text-color: #eee;
   --bkg-color: black;
   --contact-bkg-color: white;
   --contact-text-color: black;
-}
-body {
-  height: 100%;
-  margin: 0;
-  font-family: "Poppins", sans-serif;
-}
-body {
-  background: var(--bkg-color);
 }
 /* .custom-modalbox > mat-dialog-container {
   border-radius: 30px;
