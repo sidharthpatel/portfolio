@@ -2,26 +2,22 @@
   margin: 0;
   padding: 0;
 }
-a {
-  text-decoration: none;
-  cursor: pointer;
-}
 ul {
   list-style: none;
 }
-.project-heading {
+header {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.project-heading > h3 {
+header p {
   font-size: 2.7rem;
   font-weight: 600;
   text-transform: uppercase;
   color: var(--text-color);
 }
-.project-heading > span {
+header span {
   color: #f33c3c;
 }
 .project-filter {
