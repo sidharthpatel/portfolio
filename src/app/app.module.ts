@@ -10,6 +10,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ProjectsComponent } from './projects/projects.component';
     ExperienceComponent,
     FooterComponent,
     ProjectsComponent,
+    AboutMeComponent,
   ],
   imports: [BrowserModule],
   providers: [],
