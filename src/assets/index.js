@@ -20,15 +20,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import angular from './tech/angular.png';
+import java from './tech/java.jpg';
+import python from './tech/python.png';
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import freddiemac from './company/freddiemac.png';
+import mindgrub from './company/mindgrub.png';
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import bitfila from './bitfila.png';
+import posit from './posit.png';
 
 export {
   logo,
@@ -44,6 +44,9 @@ export {
   figma,
   git,
   html,
+  angular,
+  java,
+  python,
   javascript,
   mongodb,
   nodejs,
@@ -52,11 +55,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  freddiemac,
+  mindgrub,
+  bitfila,
+  posit,
 };
