@@ -1,28 +1,27 @@
 import {
-    mobile,
+    // mobile,
     backend,
-    creator,
+    // creator,
     web,
     javascript,
     typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    angular,
+    java,
+    python,
+
+    freddiemac,
+    mindgrub,
+
+    bitfila,
+    posit,
   } from "../assets";
   
   export const navLinks = [
@@ -45,18 +44,18 @@ import {
       title: "Web Developer",
       icon: web,
     },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
+    // {
+    //   title: "React Native Developer",
+    //   icon: mobile,
+    // },
     {
       title: "Backend Developer",
       icon: backend,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    // {
+    //   title: "Content Creator",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
@@ -67,6 +66,10 @@ import {
     {
       name: "CSS 3",
       icon: css,
+    },
+    {
+      name: 'Angular',
+      icon: angular,
     },
     {
       name: "JavaScript",
@@ -81,12 +84,16 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
+    },
+    {
+      name: 'Java',
+      icon: java,
+    },
+    {
+      name: 'Python',
+      icon: python,
     },
     {
       name: "Node JS",
@@ -97,16 +104,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
@@ -116,55 +115,31 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Technology Analyst",
+      company_name: "Freddie Mac",
+      icon: freddiemac,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jun 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Developing and maintaining web applications using Angular to simplify testing across organization.",
+        "Collaborated with cross-functional team to improve a team's automation suite by accomplishing 85% code coverage in three months.",
+        "Deployed Angular application on Amazon EKS service using Jenkins and Kubernetes",
+        "Helped 25 teams across the organization to implement parallel testing improving average time to run tests from eight hours to two hours.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Associate Software Engineer",
+      company_name: "MindGrub",
+      icon: mindgrub,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jun 2021 - Sep 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a minimum viable product using React, Postman, and Drupal CMS called Hoos Hoo - an HR management tool that allowed employess to learn about their colleagues through gamified experience.",
+        "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality product.",
+        "Introduced gaming mechanics in the app by adding immersive animations.",
+        "Implemented authentication and authorization to prevent users from accessing restricted endpoints.",
+        "Implemented responsive design and ensured cross-browser compatibility.",
       ],
     },
   ];
@@ -198,68 +173,114 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Bit-Fil-A",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed by four talented, self-taught developers in their final year of bachelors, Bit-Fil-A is angular CRUD (Create, Read, Update, and Delete) application inspired by Chick-Fil-A.",
       tags: [
         {
-          name: "react",
+          name: "Angular",
           color: "blue-text-gradient",
         },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: bitfila,
+      source_code_link: "https://github.com/sidharthpatel/Bit-fil-a",
     },
     {
-      name: "Job IT",
+      name: "Post-it",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        'A MEAN Stack application that allows users to add public notes with images attached to it. Post-it has features such as user authorization and authentication, error handling, AWS S3 bucket connection to store images, and much more!',
       tags: [
         {
-          name: "react",
+          name: "Angular",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "Node.js",
+          color: 'pink-text-gradient',
         },
         {
-          name: "supabase",
+          name: "Express",
+          color: 'blue-text-gradient',
+        },
+        {
+          name: "AWS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Heroku",
           color: "pink-text-gradient",
-        },
+        }
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: posit,
+      source_code_link: "https://github.com/sidharthpatel/post-it-frontend#readme",
     },
+    // {
+    //   name: "Car Rent",
+    //   description:
+    //     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "mongodb",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwind",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: carrent,
+    //   source_code_link: "https://github.com/",
+    // },
+    // {
+    //   name: "Job IT",
+    //   description:
+    //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "restapi",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "scss",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: jobit,
+    //   source_code_link: "https://github.com/",
+    // },
+    // {
+    //   name: "Trip Guide",
+    //   description:
+    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

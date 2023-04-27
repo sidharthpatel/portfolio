@@ -41,9 +41,9 @@ const About = () => {
       >
         I am a skilled software developer with experience in TypeScript and
         JavaScript, and expertise in frameworks like React, Node.js, and
-        Angular. I am a quick learner and collaborate closely to create
-        efficient, scalable, and user-friendly solutions. Let's create a better
-        world by tackling one problem at a time!
+        Angular. I'm a quick learner and collaborate closely to create
+        efficient, scalable, and user-friendly solutions. As of now, I am
+        exploring the realms of Artificial Intelligence.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
