@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./SP_logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,43 +20,43 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import angular from './tech/angular.png';
-import java from './tech/java.jpg';
-import python from './tech/python.png';
+import angular from "./tech/angular.png";
+import java from "./tech/java.jpg";
+import python from "./tech/python.png";
 
-import freddiemac from './company/freddiemac.png';
-import mindgrub from './company/mindgrub.png';
+import freddiemac from "./company/freddiemac.png";
+import mindgrub from "./company/mindgrub.png";
 
-import bitfila from './bitfila.png';
-import posit from './posit.png';
+import bitfila from "./bitfila.png";
+import posit from "./posit.png";
 
 export {
-  logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  angular,
-  java,
-  python,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  freddiemac,
-  mindgrub,
-  bitfila,
-  posit,
+	logo,
+	backend,
+	creator,
+	mobile,
+	web,
+	github,
+	menu,
+	close,
+	css,
+	docker,
+	figma,
+	git,
+	html,
+	angular,
+	java,
+	python,
+	javascript,
+	mongodb,
+	nodejs,
+	reactjs,
+	redux,
+	tailwind,
+	typescript,
+	threejs,
+	freddiemac,
+	mindgrub,
+	bitfila,
+	posit,
 };
