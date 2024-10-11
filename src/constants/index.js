@@ -117,17 +117,32 @@ const technologies = [
 
 const experiences = [
 	{
+		title: "Software Engineer II",
+		company_name: "Freddie Mac",
+		icon: freddiemac,
+		iconBg: "#383E56",
+		date: "Jan 2023 - Present",
+		points: [
+			"Developed GraphQL APIs to expand client capabilities and address new project requirements.",
+			"Led the development and deployment of an automated business notification system to inform stakeholders about data ingestion statuses. I designed a snowflake stored procedure to parse record details and generate an HTML table, which was conditionally triggered by Informatica Intelligence Cloud Services. To enhance reliability, I integrated Snowflake's offset property for time travel, omitting previously failed records to prevent false alarms. The entire process was scheduled using BMC Control-M  and deployed through Jenkins CI/CD, resulting in an improved operational efficiency and streamlined communication.",
+			"Led data modeling efforts using ERStudio to design and organize the structure of our data, ensuring it could be efficiently stored and accessed. I created SQL DDLs (Data Definition Language) scripts and MongoDB schemas to define how data is stored in relational databases and NoSQL environments, respectively. Additionally, I am sharing this knowledge with other teams to help them understand the data models and work independently on managing file changes.",
+			"Conducted data ingestion from DB2 servers to Snowflake data warehouse by leveraging amazon web services for data operations and data movement control framework by utilizing PySpark for data validation, ensuring accuracy and completeness",
+		],
+	},
+	{
 		title: "Technology Analyst",
 		company_name: "Freddie Mac",
 		icon: freddiemac,
 		iconBg: "#383E56",
 		date: "Jun 2022 - Present",
 		points: [
-			"Developing and maintaining web applications using Angular to simplify testing across organization.",
-			"Collaborated with cross-functional team to improve a team's automation suite by accomplishing 85% code coverage in three months.",
-			"Deployed Angular application on Amazon EKS service using Jenkins and Kubernetes",
+			"Developed and maintained web applications using Angular to simplify testing across organization.",
+			"Adopted docker and kubernetes for deployment, leveraging containerization to enhance scalability, reliability, and efficient resource management successfully deploying the Angular application on Amazon EKS service through Jenkins CI/CD.",
+			"Contributed to building a Spring Boot application that fetched Bitbucket repositories across the organization and analyzed testing coverage metrics (e.g., unit tests, regression tests, mocking, stubbing, performance tests) to improve coding and testing practices.",
+			"Developed a solution to run Node.js on an Oracle Java server by uploading Node.js source files, enabling broader service support. This allowed me to create a Node.js scheduler to monitor the application's microservices, sending email alerts to developers if any service was impacted, ensuring system reliability and prompt issue resolution.",
+			"Drove a paradigm shift in quality engineering with visionary leadership of Cypress testing initiatives leading to 30% reduction in post-prod defects.",
+			"Collaborated with cross-functional team to improve a team's regression test suite by accomplishing 85% code coverage in three months.",
 			"Helped 25 teams across the organization to implement parallel testing improving average time to run tests from eight hours to two hours.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
 		],
 	},
 	{
