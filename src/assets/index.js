@@ -1,4 +1,4 @@
-import logo from "./SP_logo.png";
+import logo from "/src/assets/SP_Logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
