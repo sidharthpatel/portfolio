@@ -1,308 +1,349 @@
 import {
-	// mobile,
-	backend,
-	// creator,
-	web,
-	javascript,
-	typescript,
-	html,
-	css,
-	reactjs,
-	tailwind,
-	nodejs,
-	mongodb,
-	git,
-	docker,
-	angular,
-	java,
-	python,
-	freddiemac,
-	mindgrub,
-	bitfila,
-	posit,
+  // mobile,
+  backend,
+  // creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  docker,
+  angular,
+  java,
+  python,
+  freddiemac,
+  mindgrub,
+  bitfila,
+  posit,
+  gpt3,
+  hoobank,
 } from "../assets";
 
 export const navLinks = [
-	{
-		id: "about",
-		title: "About",
-	},
-	{
-		id: "work",
-		title: "Work",
-	},
-	{
-		id: "skills",
-		title: "Skills",
-	},
-	{
-		id: "projects",
-		title: "Projects",
-	},
-	{
-		id: "contact",
-		title: "Contact",
-	},
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "work",
+    title: "Work",
+  },
+  {
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
 ];
 
 const services = [
-	{
-		title: "Web Developer",
-		icon: web,
-	},
-	// {
-	//   title: "React Native Developer",
-	//   icon: mobile,
-	// },
-	{
-		title: "Backend Developer",
-		icon: backend,
-	},
-	// {
-	//   title: "Content Creator",
-	//   icon: creator,
-	// },
+  {
+    title: "Web Developer",
+    icon: web,
+  },
+  // {
+  //   title: "React Native Developer",
+  //   icon: mobile,
+  // },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
-	{
-		name: "HTML 5",
-		icon: html,
-	},
-	{
-		name: "CSS 3",
-		icon: css,
-	},
-	{
-		name: "Angular",
-		icon: angular,
-	},
-	{
-		name: "JavaScript",
-		icon: javascript,
-	},
-	{
-		name: "TypeScript",
-		icon: typescript,
-	},
-	{
-		name: "React JS",
-		icon: reactjs,
-	},
-	{
-		name: "Tailwind CSS",
-		icon: tailwind,
-	},
-	{
-		name: "Java",
-		icon: java,
-	},
-	{
-		name: "Python",
-		icon: python,
-	},
-	{
-		name: "Node JS",
-		icon: nodejs,
-	},
-	{
-		name: "MongoDB",
-		icon: mongodb,
-	},
-	{
-		name: "git",
-		icon: git,
-	},
-	{
-		name: "docker",
-		icon: docker,
-	},
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
 ];
 
 const experiences = [
-	{
-		title: "Software Engineer II",
-		company_name: "Freddie Mac",
-		icon: freddiemac,
-		iconBg: "#383E56",
-		date: "Jan 2024 - Present",
-		points: [
-			"Developed GraphQL APIs to expand client capabilities and address new project requirements.",
-			"Led the development and deployment of an automated business notification system to inform stakeholders about data ingestion statuses. I designed a snowflake stored procedure to parse record details and generate an HTML table, which was conditionally triggered by Informatica Intelligence Cloud Services. To enhance reliability, I integrated Snowflake's offset property for time travel, omitting previously failed records to prevent false alarms. The entire process was scheduled using BMC Control-M  and deployed through Jenkins CI/CD, resulting in an improved operational efficiency and streamlined communication.",
-			"Led data modeling efforts using ERStudio to design and organize the structure of our data, ensuring it could be efficiently stored and accessed. I created SQL DDLs (Data Definition Language) scripts and MongoDB schemas to define how data is stored in relational databases and NoSQL environments, respectively. Additionally, I am sharing this knowledge with other teams to help them understand the data models and work independently on managing file changes.",
-			"Conducted data ingestion from DB2 servers to Snowflake data warehouse by leveraging amazon web services for data operations and data movement control framework by utilizing PySpark for data validation, ensuring accuracy and completeness",
-		],
-	},
-	{
-		title: "Technology Analyst",
-		company_name: "Freddie Mac",
-		icon: freddiemac,
-		iconBg: "#383E56",
-		date: "Jun 2022 - Dec 2023",
-		points: [
-			"Developed and maintained web applications using Angular to simplify testing across organization.",
-			"Adopted docker and kubernetes for deployment, leveraging containerization to enhance scalability, reliability, and efficient resource management successfully deploying the Angular application on Amazon EKS service through Jenkins CI/CD.",
-			"Contributed to building a Spring Boot application that fetched Bitbucket repositories across the organization and analyzed testing coverage metrics (e.g., unit tests, regression tests, mocking, stubbing, performance tests) to improve coding and testing practices.",
-			"Developed a solution to run Node.js on an Oracle Java server by uploading Node.js source files, enabling broader service support. This allowed me to create a Node.js scheduler to monitor the application's microservices, sending email alerts to developers if any service was impacted, ensuring system reliability and prompt issue resolution.",
-			"Drove a paradigm shift in quality engineering with visionary leadership of Cypress testing initiatives leading to 30% reduction in post-prod defects.",
-			"Collaborated with cross-functional team to improve a team's regression test suite by accomplishing 85% code coverage in three months.",
-			"Helped 25 teams across the organization to implement parallel testing improving average time to run tests from eight hours to two hours.",
-		],
-	},
-	{
-		title: "Associate Software Engineer",
-		company_name: "MindGrub",
-		icon: mindgrub,
-		iconBg: "#E6DEDD",
-		date: "Jun 2021 - Sep 2021",
-		points: [
-			"Developed a minimum viable product using React, Postman, and Drupal CMS called Hoos Hoo - an HR management tool that allowed employess to learn about their colleagues through gamified experience.",
-			"Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality product.",
-			"Introduced gaming mechanics in the app by adding immersive animations.",
-			"Implemented authentication and authorization to prevent users from accessing restricted endpoints.",
-			"Implemented responsive design and ensured cross-browser compatibility.",
-		],
-	},
+  {
+    title: "Software Engineer II",
+    company_name: "Freddie Mac",
+    icon: freddiemac,
+    iconBg: "#383E56",
+    date: "Jan 2024 - Present",
+    points: [
+      "Developed GraphQL APIs to expand client capabilities and address new project requirements.",
+      "Led the development and deployment of an automated business notification system to inform stakeholders about data ingestion statuses. I designed a snowflake stored procedure to parse record details and generate an HTML table, which was conditionally triggered by Informatica Intelligence Cloud Services. To enhance reliability, I integrated Snowflake's offset property for time travel, omitting previously failed records to prevent false alarms. The entire process was scheduled using BMC Control-M  and deployed through Jenkins CI/CD, resulting in an improved operational efficiency and streamlined communication.",
+      "Led data modeling efforts using ERStudio to design and organize the structure of our data, ensuring it could be efficiently stored and accessed. I created SQL DDLs (Data Definition Language) scripts and MongoDB schemas to define how data is stored in relational databases and NoSQL environments, respectively. Additionally, I am sharing this knowledge with other teams to help them understand the data models and work independently on managing file changes.",
+      "Conducted data ingestion from DB2 servers to Snowflake data warehouse by leveraging amazon web services for data operations and data movement control framework by utilizing PySpark for data validation, ensuring accuracy and completeness",
+    ],
+  },
+  {
+    title: "Technology Analyst",
+    company_name: "Freddie Mac",
+    icon: freddiemac,
+    iconBg: "#383E56",
+    date: "Jun 2022 - Dec 2023",
+    points: [
+      "Developed and maintained web applications using Angular to simplify testing across organization.",
+      "Adopted docker and kubernetes for deployment, leveraging containerization to enhance scalability, reliability, and efficient resource management successfully deploying the Angular application on Amazon EKS service through Jenkins CI/CD.",
+      "Contributed to building a Spring Boot application that fetched Bitbucket repositories across the organization and analyzed testing coverage metrics (e.g., unit tests, regression tests, mocking, stubbing, performance tests) to improve coding and testing practices.",
+      "Developed a solution to run Node.js on an Oracle Java server by uploading Node.js source files, enabling broader service support. This allowed me to create a Node.js scheduler to monitor the application's microservices, sending email alerts to developers if any service was impacted, ensuring system reliability and prompt issue resolution.",
+      "Drove a paradigm shift in quality engineering with visionary leadership of Cypress testing initiatives leading to 30% reduction in post-prod defects.",
+      "Collaborated with cross-functional team to improve a team's regression test suite by accomplishing 85% code coverage in three months.",
+      "Helped 25 teams across the organization to implement parallel testing improving average time to run tests from eight hours to two hours.",
+    ],
+  },
+  {
+    title: "Associate Software Engineer",
+    company_name: "MindGrub",
+    icon: mindgrub,
+    iconBg: "#E6DEDD",
+    date: "Jun 2021 - Sep 2021",
+    points: [
+      "Developed a minimum viable product using React, Postman, and Drupal CMS called Hoos Hoo - an HR management tool that allowed employess to learn about their colleagues through gamified experience.",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality product.",
+      "Introduced gaming mechanics in the app by adding immersive animations.",
+      "Implemented authentication and authorization to prevent users from accessing restricted endpoints.",
+      "Implemented responsive design and ensured cross-browser compatibility.",
+    ],
+  },
 ];
 
 const testimonials = [
-	{
-		testimonial:
-			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-		name: "Sara Lee",
-		designation: "CFO",
-		company: "Acme Co",
-		image: "https://randomuser.me/api/portraits/women/4.jpg",
-	},
-	{
-		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Rick does.",
-		name: "Chris Brown",
-		designation: "COO",
-		company: "DEF Corp",
-		image: "https://randomuser.me/api/portraits/men/5.jpg",
-	},
-	{
-		testimonial:
-			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: "Lisa Wang",
-		designation: "CTO",
-		company: "456 Enterprises",
-		image: "https://randomuser.me/api/portraits/women/6.jpg",
-	},
+  {
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    name: "Sara Lee",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
 ];
 
 const projects = [
-	{
-		name: "Bit-Fil-A",
-		description:
-			"Developed by four talented, self-taught developers in their final year of bachelors, Bit-Fil-A is angular CRUD (Create, Read, Update, and Delete) application inspired by Chick-Fil-A.",
-		tags: [
-			{
-				name: "Angular",
-				color: "blue-text-gradient",
-			},
-		],
-		image: bitfila,
-		source_code_link: "https://github.com/sidharthpatel/Bit-fil-a",
-	},
-	{
-		name: "Post-it",
-		description:
-			"A MEAN Stack application that allows users to add public notes with images attached to it. Post-it has features such as user authorization and authentication, error handling, AWS S3 bucket connection to store images, and much more!",
-		tags: [
-			{
-				name: "Angular",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "MongoDB",
-				color: "green-text-gradient",
-			},
-			{
-				name: "Node.js",
-				color: "pink-text-gradient",
-			},
-			{
-				name: "Express",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "AWS",
-				color: "green-text-gradient",
-			},
-			{
-				name: "Heroku",
-				color: "pink-text-gradient",
-			},
-		],
-		image: posit,
-		source_code_link:
-			"https://github.com/sidharthpatel/post-it-frontend#readme",
-	},
-	// {
-	//   name: "Car Rent",
-	//   description:
-	//     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-	//   tags: [
-	//     {
-	//       name: "react",
-	//       color: "blue-text-gradient",
-	//     },
-	//     {
-	//       name: "mongodb",
-	//       color: "green-text-gradient",
-	//     },
-	//     {
-	//       name: "tailwind",
-	//       color: "pink-text-gradient",
-	//     },
-	//   ],
-	//   image: carrent,
-	//   source_code_link: "https://github.com/",
-	// },
-	// {
-	//   name: "Job IT",
-	//   description:
-	//     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-	//   tags: [
-	//     {
-	//       name: "react",
-	//       color: "blue-text-gradient",
-	//     },
-	//     {
-	//       name: "restapi",
-	//       color: "green-text-gradient",
-	//     },
-	//     {
-	//       name: "scss",
-	//       color: "pink-text-gradient",
-	//     },
-	//   ],
-	//   image: jobit,
-	//   source_code_link: "https://github.com/",
-	// },
-	// {
-	//   name: "Trip Guide",
-	//   description:
-	//     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-	//   tags: [
-	//     {
-	//       name: "nextjs",
-	//       color: "blue-text-gradient",
-	//     },
-	//     {
-	//       name: "supabase",
-	//       color: "green-text-gradient",
-	//     },
-	//     {
-	//       name: "css",
-	//       color: "pink-text-gradient",
-	//     },
-	//   ],
-	//   image: tripguide,
-	//   source_code_link: "https://github.com/",
-	// },
+  {
+    name: "Post it",
+    description:
+      "A MEAN-stack application enabling public note creation with image attachments, featuring JWT authentication, AWS S3 image storage, CRUD operations, and error handling. Focused on scalable architecture and user security.",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Heroku",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: posit,
+    source_code_link:
+      "https://github.com/sidharthpatel/post-it-frontend#readme",
+  },
+  {
+    name: "GPT-3o",
+    description:
+      "Frontend-only platform highlighting GPT-3's 2023 impact, featuring interactive navigation, dynamic content sections (case studies, library), email signup forms, and access request stats. Modern UI design, responsive layouts, and static elements emphasizing user-centric experiences.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gpt3,
+    source_code_link: "https://github.com/sidharthpatel/GPT3-Siddharth",
+  },
+  {
+    name: "HooBank",
+    description:
+      "platform for modern payment solutions, featuring dynamic business stats (3,800+ active users, $230M+ transactions), reusable feature sections, testimonials, and responsive UI/UX. Prioritizes visual impact with gradients, high-quality imagery, and intuitive call-to-action flows.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hoobank,
+    source_code_link: "https://github.com/sidharthpatel/HooBank",
+  },
+  {
+    name: "Bit Fil A",
+    description:
+      "Angular-based CRUD application mirroring Chick-Fil-A’s user experience, featuring dynamic menu management, order tracking, and responsive UI design. Collaborative team project emphasizing RESTful API integration, form validations, and modular code structure for scalable food-service workflows.",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "json-server",
+        color: "green-text-gradient",
+      },
+    ],
+    image: bitfila,
+    source_code_link: "https://github.com/sidharthpatel/Bit-fil-a",
+  },
+
+  // {
+  //   name: "Car Rent",
+  //   description:
+  //     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: carrent,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Job IT",
+  //   description:
+  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jobit,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
