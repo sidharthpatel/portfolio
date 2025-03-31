@@ -1,4 +1,4 @@
-# [Portfolio](https://sidharthpatel.github.io/)
+# [Portfolio](https://sidharthpatel.com/)
 
 This project is my personal portfolio built from scratch using Angular.
 
