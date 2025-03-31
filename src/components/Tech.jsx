@@ -7,7 +7,13 @@ import { textVariant } from "../utils/motion";
 
 const Tech = () => {
   return (
-    <div className="relative z-0">
+    <div
+      className={`relative z-0 ${styles.padding} mx-auto max-w-7xl sm:px-16`}
+    >
+      <span className="hash-span" id="skills">
+        &nbsp;
+      </span>
+
       <motion.div variants={textVariant()}>
         <p className="sm:text-[18px] text-center text-[14px] text-secondary uppercase tracking-wider">
           Tools that I use
@@ -18,7 +24,7 @@ const Tech = () => {
       </motion.div>
 
       <div
-        className={`flex flex-row flex-wrap justify-center gap-10 relative z-0 ${styles.padding} max-w-7xl mx-auto `}
+        className={`flex flex-row flex-wrap justify-center gap-10 relative z-0`}
       >
         {technologies.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
