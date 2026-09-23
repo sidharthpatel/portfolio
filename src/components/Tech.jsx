@@ -1,5 +1,3 @@
-import React from "react";
-import { BallCanvas } from "./canvas";
 import { motion } from "framer-motion";
 import { technologies } from "../constants";
 import { styles } from "../styles";
@@ -23,16 +21,24 @@ const Tech = () => {
         </h2>
       </motion.div>
 
-      <div
-        className={`flex flex-row flex-wrap justify-center gap-10 relative z-0`}
-      >
+      <ul className="mt-10 flex flex-wrap justify-center gap-4 list-none">
         {technologies.map((technology) => (
-          <div className="w-28 h-28" key={technology.name}>
-            <BallCanvas icon={technology.icon} />
-            <p className="text-center text-secondary">{technology.name}</p>
-          </div>
+          <li
+            key={technology.name}
+            className="flex flex-col items-center gap-3 w-[140px] bg-tertiary rounded-xl py-6 px-4 border border-transparent hover:border-secondary transition-colors"
+          >
+            <img
+              src={technology.icon}
+              alt=""
+              loading="lazy"
+              className="w-12 h-12 object-contain rounded"
+            />
+            <span className="text-secondary text-[14px] font-medium">
+              {technology.name}
+            </span>
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   );
 };
