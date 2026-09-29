@@ -1,8 +1,4 @@
 import {
-	// mobile,
-	backend,
-	// creator,
-	web,
 	javascript,
 	typescript,
 	html,
@@ -72,14 +68,6 @@ const services = [
 		title: "Full-Stack Developer",
 		icon: fullStack,
 	},
-	// {
-	//   title: "React Native Developer",
-	//   icon: mobile,
-	// },
-	// {
-	//   title: "Content Creator",
-	//   icon: creator,
-	// },
 ];
 
 const technologies = [
