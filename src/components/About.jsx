@@ -41,8 +41,8 @@ const About = () => {
       >
         I started out building for the web, with React and Angular interfaces
         and the tests that keep them reliable. Over time I moved toward the
-        data underneath, and today I'm a data engineer, building pipelines and
-        warehouses with SQL, Snowflake, PySpark, and AWS. I'm now studying
+        data underneath, and today I&apos;m a data engineer, building pipelines and
+        warehouses with SQL, Snowflake, PySpark, and AWS. I&apos;m now studying
         Machine Learning at Georgia Tech, because I want the data I work with
         to do more than move from place to place. The web is still where I like
         to build.

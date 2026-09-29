@@ -10,5 +10,5 @@ if (typeof window !== "undefined" && !window.IntersectionObserver) {
     }
   }
   window.IntersectionObserver = MockIntersectionObserver;
-  global.IntersectionObserver = MockIntersectionObserver;
+  globalThis.IntersectionObserver = MockIntersectionObserver;
 }
