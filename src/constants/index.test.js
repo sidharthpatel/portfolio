@@ -1,5 +1,11 @@
 import { describe, it, expect } from "vitest";
-import { navLinks, projects, experiences, technologies } from "./index";
+import {
+  navLinks,
+  projects,
+  experiences,
+  technologies,
+  education,
+} from "./index";
 
 describe("navLinks", () => {
   it("has unique, non-empty ids and titles", () => {
@@ -58,5 +64,22 @@ describe("technologies", () => {
   it("has no duplicate names (they're used as React keys in Tech.jsx)", () => {
     const names = technologies.map((t) => t.name);
     expect(new Set(names).size).toBe(names.length);
+  });
+});
+
+describe("education", () => {
+  it("every entry has school, degree and a date range", () => {
+    expect(education.length).toBeGreaterThan(0);
+    education.forEach((item) => {
+      expect(item.school).toBeTruthy();
+      expect(item.degree).toBeTruthy();
+      expect(item.date).toMatch(/^[A-Z][a-z]{2} \d{4} - [A-Z][a-z]{2} \d{4}/);
+    });
+  });
+});
+
+describe("navLinks vs page sections", () => {
+  it("includes an education link", () => {
+    expect(navLinks.map((n) => n.id)).toContain("education");
   });
 });

@@ -23,6 +23,14 @@ import threejs from "./tech/threejs.svg";
 import angular from "./tech/angular.png";
 import java from "./tech/java.jpg";
 import python from "./tech/python.png";
+import snowflake from "./tech/snowflake.svg";
+import pyspark from "./tech/pyspark.svg";
+import aws from "./tech/aws.svg";
+import sql from "./tech/sql.svg";
+import dremio from "./tech/dremio.png";
+import ml from "./ml.png";
+import dataEngineer from "./data-engineer.png";
+import fullStack from "./full-stack.png";
 
 import freddiemac from "./company/freddiemac.png";
 import mindgrub from "./company/mindgrub.png";
@@ -33,34 +41,42 @@ import gpt3 from "./GPT3o-Siddharth.png";
 import hoobank from "./HooBank.png";
 
 export {
-  logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  angular,
-  java,
-  python,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  freddiemac,
-  mindgrub,
-  bitfila,
-  posit,
-  gpt3,
-  hoobank,
+	logo,
+	backend,
+	creator,
+	mobile,
+	web,
+	github,
+	menu,
+	close,
+	css,
+	docker,
+	figma,
+	git,
+	html,
+	angular,
+	java,
+	python,
+	snowflake,
+	pyspark,
+	aws,
+	sql,
+	dremio,
+	ml,
+	dataEngineer,
+	fullStack,
+	javascript,
+	mongodb,
+	nodejs,
+	reactjs,
+	redux,
+	tailwind,
+	typescript,
+	threejs,
+	freddiemac,
+	mindgrub,
+	bitfila,
+	posit,
+	gpt3,
+	hoobank,
 };

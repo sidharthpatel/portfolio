@@ -17,7 +17,7 @@ const ServiceCard = ({ index, title, icon }) => {
           options={{ max: 45, scale: 1, speed: 450 }}
           className="bg-tertiary rouned-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
         >
-          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <img src={icon} alt={title} className="w-24 h-24 object-contain" />
           <h3 className="text-white text-[20px] font-bold text-center">
             {title}
           </h3>
@@ -39,11 +39,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Angular. I'm a quick learner and collaborate closely to create
-        efficient, scalable, and user-friendly solutions. As of now, I am
-        exploring the realms of Artificial Intelligence.
+        I started out building for the web, with React and Angular interfaces
+        and the tests that keep them reliable. Over time I moved toward the
+        data underneath, and today I'm a data engineer, building pipelines and
+        warehouses with SQL, Snowflake, PySpark, and AWS. I'm now studying
+        Machine Learning at Georgia Tech, because I want the data I work with
+        to do more than move from place to place. The web is still where I like
+        to build.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
