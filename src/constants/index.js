@@ -1,8 +1,6 @@
 import {
 	javascript,
 	typescript,
-	html,
-	css,
 	reactjs,
 	tailwind,
 	nodejs,
@@ -90,14 +88,6 @@ const technologies = [
 	{
 		name: "AWS",
 		icon: aws,
-	},
-	{
-		name: "HTML 5",
-		icon: html,
-	},
-	{
-		name: "CSS 3",
-		icon: css,
 	},
 	{
 		name: "Angular",
