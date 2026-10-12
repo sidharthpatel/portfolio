@@ -14,18 +14,30 @@ describe("Works", () => {
     expect(githubIcons.length).toBe(projects.length);
   });
 
-  it("BUG: copy promises 'live demos' but no project entry has a demo link/button", () => {
-    // The intro paragraph says projects link to "code repositories and live
-    // demos", but `constants/index.js` only defines `source_code_link` for
-    // every project, and ProjectCard only ever renders the github icon.
+  it("renders a live demo link only for projects that define one", () => {
     render(<Works />);
-    expect(
-      screen.getByText(/links to code repositories and live demos/i)
-    ).toBeInTheDocument();
 
-    projects.forEach((project) => {
-      expect(project.live_demo_link ?? project.demo_link).toBeUndefined();
+    const withDemo = projects.filter((project) => project.live_demo_link);
+    expect(withDemo.length).toBeGreaterThan(0);
+
+    const demoLinks = screen.getAllByRole("link", { name: /live demo/i });
+    expect(demoLinks.length).toBe(withDemo.length);
+
+    withDemo.forEach((project) => {
+      const link = screen.getByRole("link", {
+        name: `${project.name} live demo`,
+      });
+      expect(link).toHaveAttribute("href", project.live_demo_link);
+      expect(link).toHaveAttribute("target", "_blank");
+      expect(link).toHaveAttribute("rel", expect.stringContaining("noopener"));
     });
-    expect(screen.queryAllByText(/live demo/i).length).toBe(1); // only the intro sentence
+  });
+
+  it("every project has an image, description, and at least one tag", () => {
+    projects.forEach((project) => {
+      expect(project.image).toBeTruthy();
+      expect(project.description).toBeTruthy();
+      expect(project.tags.length).toBeGreaterThan(0);
+    });
   });
 });

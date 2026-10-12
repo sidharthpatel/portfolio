@@ -30,6 +30,7 @@ import bitfila from "./bitfila.png";
 import posit from "./posit.png";
 import gpt3 from "./GPT3o-Siddharth.png";
 import hoobank from "./HooBank.png";
+import kalmanRadar from "./kalman-radar.webp";
 
 export {
 	logo,
@@ -61,4 +62,5 @@ export {
 	posit,
 	gpt3,
 	hoobank,
+	kalmanRadar,
 };

@@ -24,6 +24,7 @@ import {
 	posit,
 	gpt3,
 	hoobank,
+	kalmanRadar,
 } from "../assets";
 
 export const navLinks = [
@@ -229,6 +230,28 @@ const testimonials = [
 ];
 
 const projects = [
+	{
+		name: "Kalman Radar",
+		description:
+			"A Kalman filter tracking vehicles from noisy radar-style detections on a highway, live in 3D. Each track predicts and updates a position-and-velocity state every frame with nearest-neighbor matching, while sliders for range, noise, and dropout show the filtered estimate beating the raw readings.",
+		tags: [
+			{
+				name: "ML",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Kalman-Filter",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Three.js",
+				color: "pink-text-gradient",
+			},
+		],
+		image: kalmanRadar,
+		source_code_link: "https://github.com/sidharthpatel/adas-radar-tracker",
+		live_demo_link: "https://sidharthpatel.com/projects/kalman-radar/",
+	},
 	{
 		name: "Post it",
 		description:
